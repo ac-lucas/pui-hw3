@@ -7,7 +7,7 @@ class Navbar extends Component {
                 <div className="navbar">
 
                     <div className="navbar-left">
-                        <img className="navbar-img" src="..../public/assets/logo-01.svg" alt="bun bun bake shop cinnamon roll logo" />
+                        <img className="navbar-img" src="../assets/logo-01.svg" alt="bun bun bake shop cinnamon roll logo" />
                     </div>
 
                     <div className="navbar-right">
@@ -16,13 +16,7 @@ class Navbar extends Component {
                             <a href="" id="selected-link">PRODUCTS</a>
                             <a href="">CART</a>
                         </div>
-
-                        <div className="cart-items">
-                        </div>
-
-                        <div className="cart-popup">
-                        </div>
-
+                        
                         <hr className="navbar-divider" />
 
                         <div className="navbar-title">

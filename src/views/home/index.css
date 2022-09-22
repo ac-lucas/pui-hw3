@@ -60,22 +60,6 @@ label {
   margin-right: 250px
 }
 
-.cart-items {
-  right: 0;
-  text-align: end;
-  margin-right: 85px;
-  position: absolute;
-}
-
-.cart-popup {
-  background-color: white;
-  border: 1px solid black;
-  right: 0;
-  position: absolute;
-  margin-right: 85px;
-  z-index: 9;
-}
-
 /* main content */
 
 .row {
@@ -100,11 +84,12 @@ button {
   cursor: pointer;
   background-color: white;
   border: 2px solid black;
-  font-size: 20px
+  font-size: 20px;
+  float: right;
 }
 
 label {
-  margin-right: 32px;
+  margin-right: 36px;
 }
 
 select {

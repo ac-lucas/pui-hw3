@@ -8,12 +8,16 @@ class Card extends Component {
                 <img className="card-image" src={this.props.cardImgURL} alt={this.props.cardAlt} />
 
                 <div className="card-title">
-                    {this.props.cardTitle}
+                    <h2>{this.props.cardTitle}</h2>
                 </div>
 
                 <div className="card-glazing">
-                    <label HTMLFor="glazing1">Glazing:</label>
+                    <label htmlFor="glazing1">Glazing:</label>
                     <select name="glazing" id="glazing1">
+                        <option value="Keep original" selected>Keep original</option>
+                        <option value="Sugar milk">Sugar milk</option>
+                        <option value="Vanilla milk">Vanilla milk</option>
+                        <option value="Double chocolate">Double chocolate</option>
                     </select>
                 </div>
 
@@ -31,7 +35,7 @@ class Card extends Component {
 
                 <div className="card-price">
                     <div className="card-price-left">
-                        {this.props.cardPrice}
+                        <p>{this.props.cardPrice}</p>
                     </div>
                     <div className="card-price-right">
                         <button type="button">Add to Cart</button>
